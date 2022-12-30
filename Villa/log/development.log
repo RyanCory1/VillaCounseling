@@ -1,0 +1,97 @@
+Started GET "/" for 127.0.0.1 at 2022-12-29 18:26:49 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/ryan/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ryan/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.8ms | Allocations: 839)
+Completed 200 OK in 23ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 7304)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-12-29 18:26:59 -0600
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 306.2ms | Allocations: 99681)
+Completed 200 OK in 309ms (Views: 308.2ms | ActiveRecord: 0.0ms | Allocations: 100776)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-12-29 18:29:54 -0600
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 14165)
+Completed 200 OK in 21ms (Views: 19.5ms | Allocations: 15192)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-29 18:30:00 -0600
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2569)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 3408)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-29 18:34:56 -0600
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 2841)
+Completed 200 OK in 15ms (Views: 13.7ms | Allocations: 3833)
+
+
+Started GET "/meet" for 127.0.0.1 at 2022-12-29 18:47:14 -0600
+  
+SyntaxError (/Users/ryan/VillaCounseling-2/Villa/config/routes.rb:5: syntax error, unexpected local variable or method, expecting `end'
+  get "meet" to: "meet#index"
+             ^~
+):
+  
+config/routes.rb:5: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:5: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:5: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/meet" for 127.0.0.1 at 2022-12-29 18:47:30 -0600
+Processing by MeetController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering meet/index.html.erb within layouts/application
+  Rendered meet/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 54.8ms | Allocations: 14319)
+Completed 200 OK in 58ms (Views: 56.7ms | Allocations: 15302)
+
+
+Started GET "/pricing" for 127.0.0.1 at 2022-12-29 18:55:37 -0600
+Processing by PricingController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pricing/index.html.erb within layouts/application
+  Rendered pricing/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 14249)
+Completed 200 OK in 30ms (Views: 28.8ms | Allocations: 15278)
+
+
+Started GET "/locaition" for 127.0.0.1 at 2022-12-29 18:59:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/locaition"):
+  
+Started GET "/locaitions" for 127.0.0.1 at 2022-12-29 18:59:09 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/locaitions"):
+  
+Started GET "/location" for 127.0.0.1 at 2022-12-29 18:59:28 -0600
+Processing by LocationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering location/index.html.erb within layouts/application
+  Rendered location/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 14257)
+Completed 200 OK in 31ms (Views: 28.8ms | Allocations: 15244)
+
+
+Started GET "/photos" for 127.0.0.1 at 2022-12-29 19:01:42 -0600
+Processing by PhotosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 14152)
+Completed 200 OK in 24ms (Views: 23.2ms | Allocations: 15179)
+
+
