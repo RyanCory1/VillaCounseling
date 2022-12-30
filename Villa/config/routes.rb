@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "pricing", to: "pricing#index"
   get "location", to: "location#index"
   get "photos", to: "photos#index"
+  get "notes", to: "notes#index"
   # Defines the root path route ("/")
   # root "articles#index"
 end
